@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.11.1",
+    "express": "^4.13.4",
     "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.29",
     "karma": "^0.13.22",
     "karma-mocha": "^0.2.2",
     "karma-mocha-reporter": "^2.0.0",
