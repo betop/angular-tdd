@@ -6,5 +6,12 @@
   <h1>
     Hello World!
   </h1>
-  <srcript src="main.js"></srcript>
+
+  <div ng-controller="ContactController">
+    <div ng-repeat="contact in contacts">
+      {{contact.name}}
+      <avatar name=contact.name></avatar>
+    </div>
+  </div>
+  <script src="main.js"></script>
 </body>

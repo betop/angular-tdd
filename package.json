@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.11.1",
+    "cors": "^2.7.1",
     "express": "^4.13.4",
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.29",
