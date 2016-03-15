@@ -8,6 +8,10 @@ module.exports = function (config) {
     coverageReporter: {
       includeAllSources: true,
       reporters: [{
+        type: 'html',
+        dir: 'test/coverage',
+        subdir: '.'
+      }, {
         type: 'text'
       }]
     },

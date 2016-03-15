@@ -47,3 +47,13 @@ gulp.task('test-browser', function (done) {
     reporters: ['mocha', 'coverage']
   }, done).start();
 });
+
+gulp.task('serve-coverage', ['test-browser'], function () {
+  browserSync.init({
+    notify: false,
+    port: 7777,
+    server: {
+      baseDir: ["test/coverage"]
+    }
+  });
+});
