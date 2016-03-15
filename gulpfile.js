@@ -44,6 +44,6 @@ gulp.task('test-browser', function (done) {
   new karmaServer({
     configFile: __dirname + '/karma.conf.js',
     singleRun: true,
-    reporters: ['mocha']
+    reporters: ['mocha', 'coverage']
   }, done).start();
 });
